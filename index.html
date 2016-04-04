@@ -11,22 +11,33 @@
     <link rel="stylesheet" href="milligram/dist/milligram.css">
     <!-- Other Styles -->
     <link rel="stylesheet" href="style.css">
-    <title>HTML / CSS Guessing Game</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" async></script>
-    <script type="text/javascript" src="scripts.js" async></script>
+    <title>HTML / CSS / JS Guessing Game</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript" src="guessingGame.js" async></script>
 </head>
 
 <body>
     <section class="primary">
         <h1>Hey girl hey!<br> 
-I'm thinking of a number <br>
+I've generated a number <br>
 between 1 and 100. <br>
-Take a guess!</h1>
+Take a guess:</h1>
         <br>
-        <input id="visitor-guess" type="number" placeholder="Enter a number between 1 - 100">
-        <section id="buttons-container">
-            <button>Amirite?</button>&nbsp;
-            <button class="button button-outline">Reset</button>
+        <div class="gameStatus">
+            <p class="guesses-remaining">You've got 5 guesses left!</p>
+            <div class="hints">
+                <p>Maybe you should try one of these numbers: </p>
+            </div>
+            <div class="guessGuidance"></div>
+            <br>
+        </div>
+        <section class="form">
+            <input id="visitor-guess" type="number" placeholder="Enter a number between 1 - 100"> &nbsp;
+            <section id="buttons-container">
+                <button class="amirite">Amirite?</button>&nbsp;
+                <button class="button button-outline helpme">Help!</button>&nbsp;
+                <button class="startova">Start ova!</button>&nbsp;
+            </section>
         </section>
     </section>
 </body>

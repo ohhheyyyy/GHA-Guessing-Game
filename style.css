@@ -1,28 +1,31 @@
 /**********    The Real CSS    **********/
-body {
-  margin: 3% 5%;
-  border: 5px solid #777777;
-  border-radius: 10px;
-  padding: 10%;
-}
 
-body > section > h1 {
-  text-align: center;
+body {
+    margin: 3% 5%;
+    border: 5px solid #777777;
+    border-radius: 10px;
+    padding: 5%;
+    text-align: center;
 }
 
 input#visitor-guess {
-  text-align: center;
+    text-align: center;
 }
 
 #buttons-container {
-  width: 100%;
-  max-width: 250px;
-  margin: 0 auto;
-  text-align: center;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.hints {
+    display: none;
 }
 
 
 /**********    Column Classes    **********/
+
+
 /**********    Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css    **********/
 
 .five-sixths,
@@ -36,43 +39,43 @@ input#visitor-guess {
 .two-fourths,
 .two-sixths,
 .two-thirds {
-  float: left;
-  margin-left: 2.564102564102564%;
+    float: left;
+    margin-left: 2.564102564102564%;
 }
 
 .one-half,
 .three-sixths,
 .two-fourths {
-  width: 48.717948717948715%;
+    width: 48.717948717948715%;
 }
 
 .one-third,
 .two-sixths {
-  width: 31.623931623931625%;
+    width: 31.623931623931625%;
 }
 
 .four-sixths,
 .two-thirds {
-  width: 65.81196581196582%;
+    width: 65.81196581196582%;
 }
 
 .one-fourth {
-  width: 23.076923076923077%;
+    width: 23.076923076923077%;
 }
 
 .three-fourths {
-  width: 74.35897435897436%;
+    width: 74.35897435897436%;
 }
 
 .one-sixth {
-  width: 14.52991452991453%;
+    width: 14.52991452991453%;
 }
 
 .five-sixths {
-  width: 82.90598290598291%;
+    width: 82.90598290598291%;
 }
 
 .first {
-  clear: both;
-  margin-left: 0;
+    clear: both;
+    margin-left: 0;
 }
